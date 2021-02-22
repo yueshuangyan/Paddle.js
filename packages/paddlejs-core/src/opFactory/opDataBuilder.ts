@@ -128,7 +128,9 @@ export default class OpData {
         };
 
 
-        return type === 'input' ? intputTensorName[name.toLowerCase()] : outTensorName[name.toLowerCase()];
+        return type === 'input'
+            ? intputTensorName[name.toLowerCase()] || name.toLowerCase()
+            : outTensorName[name.toLowerCase()];
     }
 
     getTensorVar(name: string) {
