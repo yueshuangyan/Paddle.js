@@ -1,0 +1,16 @@
+{
+  "name": "@paddlejs/paddlejs-tools",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "puppeteer": "^5.3.1"
+  }
+}

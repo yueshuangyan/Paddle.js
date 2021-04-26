@@ -1,0 +1,3 @@
+cd ../paddlejs-converter
+# python convertToPaddleJSModel.py --modelPath=../../../models/paddleModels/tfjs_mobilenetv2/__model__ --optimize 1 --paramPath=../../../models/paddleModels/tfjs_mobilenetv2/params  --sliceDataSize=700 --outputDir=../../../models/convertedModels/tfjs_mobilenetv2_opt/
+python convertToPaddleJSModel.py --inputDir=../../../models/paddleModels/tfjs_mobilenetv2/ --optimize=1 --sliceDataSize=4000 --outputDir=../../../models/convertedModels/tfjs_mobilenetv2_opt/

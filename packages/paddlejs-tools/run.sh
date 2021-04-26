@@ -1,0 +1,1 @@
+python run.py --model occ_paddle --inputWidth 128 --inputHeight 128 --modelFileName __model__ --paramFileName params --opName save_infer_model/scale_0.tmp_0
